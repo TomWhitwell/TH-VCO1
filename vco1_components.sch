@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -287,6 +287,52 @@ NS Package M08A</description>
 <rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
 </package>
+<package name="THAT340">
+<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="0" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="0" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="-2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="0.635" y="0" size="1.016" layer="25" ratio="10" rot="R90" align="center">&gt;NAME</text>
+<text x="-0.635" y="0" size="1.016" layer="27" ratio="10" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="-1.27" y1="3.81" x2="-8.89" y2="3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="-8.89" y1="3.81" x2="-8.255" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-8.255" y1="5.08" x2="-1.905" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="5.08" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-1.016" x2="-8.89" y2="-2.921" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-8.89" y2="-3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="-8.255" y1="-2.54" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-3.81" x2="-8.255" y2="-2.54" width="0.127" layer="21"/>
+<text x="-8.255" y="-1.905" size="1.143" layer="21">2N3904</text>
+<wire x1="1.905" y1="2.54" x2="8.255" y2="2.54" width="0.127" layer="21"/>
+<wire x1="8.255" y1="2.54" x2="8.89" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="8.89" y2="3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.905" y1="-5.08" x2="8.255" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-5.08" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.255" y1="-5.08" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21" curve="-180"/>
+<text x="1.905" y="0.635" size="1.143" layer="21">2N3906</text>
+<text x="3.683" y="-1.905" size="1.27" layer="21">PNP</text>
+<text x="3.683" y="5.715" size="1.27" layer="21">PNP</text>
+<text x="-3.302" y="1.905" size="1.27" layer="21" rot="R180">NPN</text>
+<text x="-3.302" y="-5.715" size="1.27" layer="21" rot="R180">NPN</text>
+</package>
 <package name="DIL14">
 <description>14 pin IC, DIP package</description>
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
@@ -418,6 +464,46 @@ NS Package M08A</description>
 <rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
 <rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
 <rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
+</package>
+<package name="SO14">
+<description>&lt;b&gt;Small Outline Package 14&lt;/b&gt;</description>
+<wire x1="4.305" y1="-1.9" x2="-4.305" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-4.305" y1="-1.9" x2="-4.305" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-4.305" y1="-1.4" x2="-4.305" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="4.305" y1="-1.4" x2="-4.305" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="4.305" y1="1.9" x2="4.305" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="4.305" y1="-1.4" x2="4.305" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-4.305" y1="1.9" x2="4.305" y2="1.9" width="0.2032" layer="51"/>
+<smd name="2" x="-2.54" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-2.54" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-3.81" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.27" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="0" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-3.81" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="-1.27" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="0" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="2.54" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="2.54" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.27" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.81" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="1.27" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="3.81" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-4.572" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.842" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.055" y1="-3.1" x2="-3.565" y2="-2" layer="51"/>
+<rectangle x1="-2.785" y1="-3.1" x2="-2.295" y2="-2" layer="51"/>
+<rectangle x1="-1.515" y1="-3.1" x2="-1.025" y2="-2" layer="51"/>
+<rectangle x1="-0.245" y1="-3.1" x2="0.245" y2="-2" layer="51"/>
+<rectangle x1="-0.245" y1="2" x2="0.245" y2="3.1" layer="51"/>
+<rectangle x1="-1.515" y1="2" x2="-1.025" y2="3.1" layer="51"/>
+<rectangle x1="-2.785" y1="2" x2="-2.295" y2="3.1" layer="51"/>
+<rectangle x1="-4.055" y1="2" x2="-3.565" y2="3.1" layer="51"/>
+<rectangle x1="1.025" y1="-3.1" x2="1.515" y2="-2" layer="51"/>
+<rectangle x1="2.295" y1="-3.1" x2="2.785" y2="-2" layer="51"/>
+<rectangle x1="3.565" y1="-3.1" x2="4.055" y2="-2" layer="51"/>
+<rectangle x1="3.565" y1="2" x2="4.055" y2="3.1" layer="51"/>
+<rectangle x1="2.295" y1="2" x2="2.785" y2="3.1" layer="51"/>
+<rectangle x1="1.025" y1="2" x2="1.515" y2="3.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -668,7 +754,45 @@ NS Package M08A</description>
 <gate name="G$4" symbol="PNP" x="-20.32" y="-10.16" swaplevel="2"/>
 </gates>
 <devices>
-<device name="" package="DIL14">
+<device name="THRUHOLE" package="DIL14">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$2" pin="B" pad="13"/>
+<connect gate="G$2" pin="C" pad="14"/>
+<connect gate="G$2" pin="E" pad="12"/>
+<connect gate="G$3" pin="B" pad="6"/>
+<connect gate="G$3" pin="C" pad="7"/>
+<connect gate="G$3" pin="E" pad="5"/>
+<connect gate="G$4" pin="B" pad="9"/>
+<connect gate="G$4" pin="C" pad="8"/>
+<connect gate="G$4" pin="E" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="SO14">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$2" pin="B" pad="13"/>
+<connect gate="G$2" pin="C" pad="14"/>
+<connect gate="G$2" pin="E" pad="12"/>
+<connect gate="G$3" pin="B" pad="6"/>
+<connect gate="G$3" pin="C" pad="7"/>
+<connect gate="G$3" pin="E" pad="5"/>
+<connect gate="G$4" pin="B" pad="9"/>
+<connect gate="G$4" pin="C" pad="8"/>
+<connect gate="G$4" pin="E" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TRANSISTORS" package="THAT340">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
@@ -4350,7 +4474,7 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <part name="R31" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="2.2m"/>
 <part name="SUPPLY38" library="supply2" deviceset="GND" device=""/>
 <part name="R36" library="MusicThingModular" deviceset="RESISTOR" device="7MM" value="150k"/>
-<part name="U$1" library="MusicThingModular" deviceset="THAT-340" device=""/>
+<part name="U$1" library="MusicThingModular" deviceset="THAT-340" device="TRANSISTORS"/>
 <part name="SV1" library="MusicThingModular" deviceset="EURO_POWER_HEADER" device="LOCK_PADS"/>
 <part name="SUPPLY39" library="supply2" deviceset="-12V" device=""/>
 <part name="SUPPLY40" library="supply2" deviceset="+12V" device=""/>
